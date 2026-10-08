@@ -119,12 +119,6 @@ export class ResizeAttributeSource implements AttributeSource {
 				supportsMultiple: false,
 				formatter: (info) => this.resize(info),
 			},
-			{
-				key: "title",
-				type: "string",
-				supportsMultiple: false,
-				formatter: (title) => title.toUpperCase(),
-			},
 		]);
 	}
 
